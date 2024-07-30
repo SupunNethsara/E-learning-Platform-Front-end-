@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OnlineEdu.Com</title>
+  <link rel="stylesheet" href="style.css" class="rel" />
+  <script src="https://kit.fontawesome.com/329b0d2005.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous" /> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&family=Roboto:wght@900&display=swap"
+    rel="stylesheet" />
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Poppins:wght@300&family=Roboto:wght@900&display=swap");
+  </style>
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+</head>
+
+<body>
+  <!------------Navbar----------------->
+  <div class="section">
+    <div class="nav">
+      <div class="logo"><img src="images/logo.svg" alt="" srcset="" /></div>
+      <div class="tool">
+        <i id="search-icon" class="fa-solid fa-bars"></i>
+      </div>
+      <ul>
+    
+        <li><a href="#contact" >Contact</a></li>
+        <li><a href="#about" >About</a></li>
+        <li><a href="#corce" >Corces</a></li>
+        <li><a href="#category" >Catogaries</a></li>
+        <li><a href="#dash" >Dashbord</a></li>
+     
+      </ul>
+      <div class="btn">
+        <button id="loginbtn" class="one">Log in</button>
+        <button class="two">Sign up</button>
+      </div>
+    </div>
+  </div>
+  <!------Form----->
+  <form action="" id="search-form">
+    <div class="cart">
+      <div>
+        <div class="rep">
+          <img src="images/logo.svg" alt="" />
+          <i id="cart-close" class="fa-solid fa-xmark"></i>
+        </div>
+        <ul  class="rep2">
+          <li>
+          <a><i class="fa-solid fa-gauge"></i>Dashbord</a>
+          </li>
+          <li>
+            <a><i class="fa-solid fa-graduation-cap"></i>Cources</a>
+          </li>
+          <li>
+            <a><i class="fa-solid fa-circle-info"></i>About</a>
+          </li>
+          <li>
+            <a><i class="fa-solid fa-address-book"></i>Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </form>
+
+    <!------------Login Form----------------->
+  <div class="login_form" id="loginform">
+    <div class="section3">
+      <i style="float: right; cursor: pointer" id="cart-closing" class="fa-solid fa-xmark"></i>
+      <img src="images/logo.svg" alt="" />
+      <div class="input">
+        Email:<label style="border: 1px solid rgb(199, 193, 193); padding: 5px"><input type="email"
+            placeholder="Type your e-mail" /></label>
+        Password:<label style="border: 1px solid rgb(199, 193, 193); padding: 5px"><input type="password"
+            placeholder="*********" /></label>
+      </div>
+
+      <div class="text">
+        <p>forgotten password</p>
+      </div>
+      <button>Login</button> <button>Signup</button>
+
+      <div class="social">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+    </div>
+  </div>
+<!--------------Menu--------------->
+  <div class="menu" id="home">
+    <div class="text">
+      <h2>
+        Are you Ready for a <br /><span style="font-size: 40px">Professional Career.</span>
+      </h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis
+        nulla soluta minus nam aut deserunt iusto quod fugiat quibusdam
+        dignissimos sed provident corporis ut quasi, similique culpa excepturi
+        totam maiores.
+      </p>
+      <button class="one">Recommened Career</button>&nbsp;&nbsp;&nbsp;
+      <button class="two">View Corces</button>
+    </div>
+    <div class="image">
+      <img src="images/young-people-row-with-thumbs-up.jpg" alt="" />
+    </div>
+  </div>
+
+  <!----------category--------->
+  <section class="section-category" aria-label="category" id="category">
+    <div class="container">
+      <div class="heading">
+        <p class="section-subtitle">Categories</p>
+
+        <h2 class="h2 section-title">
+          Online <span class="span">Classes</span> For Remote Learning.
+        </h2>
+
+        <p class="section-text">
+          Consectetur adipiscing elit sed do eiusmod tempor.
+        </p>
+      </div>
+
+      <ul class="grid-list">
+        <li class="one">
+          <div style="background-color: hsla(170, 75%, 41%, 0.15)" class="category-card">
+            <div style="background-color: hsla(170, 75%, 41%, 0.2)" class="card-icon">
+              <img src="images/category-1.svg" width="40" height="40" loading="lazy" alt="Online Degree Programs"
+                class="img" />
+            </div>
+
+            <h3 class="h3">
+              <a href="#" class="card-title">Online Degree Programs</a>
+            </h3>
+
+            <p class="cardtext">
+              Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+            </p>
+
+            <button style="
+                  background-color: hsla(170, 75%, 41%, 0.2);
+                  color: hsla(170, 75%, 41%);
+                  font-weight: 1000;
+                ">
+              7 Courses
+            </button>
+          </div>
+        </li>
+
+        <li class="one">
+          <div style="background-color: hsla(351, 83%, 61%, 0.15)" class="category-card">
+            <div style="background-color: hsla(351, 83%, 61%, 0.2)" class="card-icon">
+              <img src="images/category-2.svg" width="40" height="40" loading="lazy" alt="Non-Degree Programs"
+                class="img" />
+            </div>
+
+            <h3 class="h3">
+              <a href="#" class="card-title">Non-Degree Programs</a>
+            </h3>
+
+            <p class="cardtext">
+              Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+            </p>
+
+            <button style="
+                  background-color: hsla(351, 83%, 61%, 0.2);
+                  color: hsla(351, 83%, 61%);
+                  font-weight: 1000;
+                ">
+              4 Courses
+            </button>
+          </div>
+        </li>
+
+        <li class="one">
+          <div style="background-color: hsla(229, 75%, 58%, 0.15)" class="category-card">
+            <div style="background-color: hsla(229, 75%, 58%, 0.2)" class="card-icon">
+              <img src="images/category-3.svg" width="40" height="40" loading="lazy" alt="Off-Campus Programs"
+                class="img" />
+            </div>
+
+            <h3 class="h3">
+              <a href="#" class="card-title">Off-Campus Programs</a>
+            </h3>
+
+            <p class="cardtext">
+              Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+            </p>
+
+            <button style="
+                  background-color: hsla(229, 75%, 58%, 0.2);
+                  color: hsla(229, 75%, 58%);
+                  font-weight: 1000;
+                ">
+              8 Courses
+            </button>
+          </div>
+        </li>
+
+        <li class="one">
+          <div style="background-color: hsla(42, 94%, 55%, 0.15)" class="category-card">
+            <div style="background-color: hsla(42, 94%, 55%, 0.2)" class="card-icon">
+              <img src="images/category-4.svg" width="40" height="40" loading="lazy" alt="Hybrid Distance Programs"
+                class="img" />
+            </div>
+
+            <h3 class="h3">
+              <a href="#" class="card-title">Full Stack Web Developer</a>
+            </h3>
+
+            <p class="cardtext">
+              Lorem ipsum dolor consec tur elit adicing sed umod tempor.
+            </p>
+
+            <button style="
+                  background-color: hsla(42, 94%, 55%, 0.2);
+                  color: rgb(248, 147, 32);
+                  font-weight: 1000;
+                ">
+              8 Courses
+            </button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!------------About----------------->
+  <div class="about" id="about">
+    <div class="image">
+      <div class="img-holder" style="--width: 520; --height: 370">
+        <img style="
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+                0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            " src="images/about-banner.jpg" width="520" height="370" loading="lazy" alt="about banner"
+          class="img-cover" />
+      </div>
+
+      <img src="images/about-shape-2.svg" width="371" height="220" loading="lazy" alt="" class="shape about-shape-2" />
+    </div>
+    <div class="text">
+      <h3>ABOUT US</h3>
+      <h2>
+        Over 10 Years in<br /><span style="color: red">Distant learning</span>
+        for Skill<br />
+        Development
+      </h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Suscipit
+        necessitatibus iusto placeat adipisci recusandae facere itaque cum vel
+        aut delectus provident saepe id beatae, nesciunt voluptas officia amet
+        qui quia.
+      </p>
+
+      <div class="down">
+        <h4>
+          <i class="fa-solid fa-check"></i>&nbsp;&nbsp;&nbsp;&nbsp;Expert
+          Trainers
+        </h4>
+        <h4>
+          <i class="fa-solid fa-check"></i>&nbsp;&nbsp;&nbsp;&nbsp;Online
+          Remote Learning
+        </h4>
+        <h4>
+          <i class="fa-solid fa-check"></i>&nbsp;&nbsp;&nbsp;&nbsp;Lifetime
+          Access
+        </h4>
+      </div>
+    </div>
+  </div>
+  <!-------------Slider----------------->
+  <div class="slider">
+    <div class="slider-text">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <h3>How Can I Enter The IT Industry?</h3>
+            <p>
+              This Open Learning Platform provides you multiple learning paths
+              for different careers in IT.<br />
+              All courses are fully online and self-paced to access at your
+              convenience.<br />
+              They consist of practical exercises curated by the industry and
+              academia to develop the required skills
+            </p>
+
+            <button class="one">Learn More</button>
+            <button class="two">How ro registar</button>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide">
+              <h3>How Can I Start My Project Management Career?</h3>
+              <p>
+                The "Project Management Skills" Programme equips you with a
+                broad knowledge base to begin your career in Project
+                Management.<br />
+                All courses are fully online and self-paced to access at your
+                convenience.<br />
+                The programme is aligned with the Certified Associate in
+                Project Management<br />
+                (CAPM) Exam Content Outline of the Project Management
+                Institute, USA.
+              </p>
+
+              <button class="one">Learn More</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide">
+              <h3>How Can I Enter The IT Industry?</h3>
+              <p>
+                This Open Learning Platform provides you multiple learning
+                paths for different careers in IT.<br />
+                All courses are fully online and self-paced to access at your
+                convenience.<br />
+                They consist of practical exercises curated by the industry
+                and academia to develop the required skills
+              </p>
+
+              <button class="one">Learn More</button>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="swiper-slide">
+              <h3>How Can I Enter The IT Industry?</h3>
+              <p>
+                This Open Learning Platform provides you multiple learning
+                paths for different careers in IT.<br />
+                All courses are fully online and self-paced to access at your
+                convenience.<br />
+                They consist of practical exercises curated by the industry
+                and academia to develop the required skills
+              </p>
+
+              <button class="one">Learn More</button>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+  </div>
+  <!------------cards----------------->
+  <div class="cards" id="corce">
+    <div class="card">
+      <img src="images/course-1.jpg" alt="Avatar" style="width: 100%" />
+      <div class="container">
+        <button>Beginner</button>
+        <h4>Build Rsponsive Real-World<br />Websites with HTML and CSS</h4>
+
+        <div class="star">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          <h5>(5.0/7 Rating)</h5>
+        </div>
+        <h6>$29.00</h6>
+        <button class="dd" style="
+              background-color: hsla(234, 97%, 46%, 0.75);
+              color: white;
+              padding: 5px;
+              width: 50%;
+            ">
+          Enroll This
+        </button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/course-2.jpg" alt="Avatar" style="width: 100%" />
+      <div class="container">
+        <button>Advanced</button>
+        <h4>
+          Java Programming Masterclass<br />
+          for Software Developers
+        </h4>
+
+        <div class="star">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          <h5>(5.0/7 Rating)</h5>
+        </div>
+        <h6>$49.00</h6>
+        <button class="dd" style="
+              background-color: hsla(234, 97%, 46%, 0.75);
+              color: white;
+              padding: 5px;
+              width: 50%;
+            ">
+          Enroll This
+        </button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="images/course-3.jpg" alt="Avatar" style="width: 100%" />
+      <div class="container">
+        <button>Intermediate</button>
+        <h4>
+          The Complete Camtasia Course<br />
+          for Content Creators
+        </h4>
+
+        <div class="star">
+          <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+            class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+          <h5>(5.0/7 Rating)</h5>
+        </div>
+        <h6>$35.00</h6>
+        <button class="dd" style="
+              background-color: hsla(234, 97%, 46%, 0.75);
+              color: white;
+              padding: 5px;
+              width: 50%;
+            ">
+          Enroll This
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <div class="browse">
+    <button>Browse More Courses&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+  </div>
+  <!------------Corce Section----------------->
+  <div class="section5" >
+    <div class="corces">
+      <div class="text">
+        <h1>Trainee - Full Stack Developer</h1>
+        <p>This six module programme will provide full stack (end-to-end) software development exposure to participants
+          with a focus in Python programming, web development, and professional practice in software</p>
+        <button>See More</button>
+      </div>
+      <div class="image">
+        <img src="images/fullstack.png" alt="">
+      </div>
+    </div>
+
+    <div style="background-color:  #EFFFF3;" class="corces">
+      <div class="image">
+        <img style="float: left;" src="images/python.png" alt="">
+      </div>
+      <div class="text">
+        <h1>Trainee - Python Programmer</h1>
+        <p>This programme will provide exposure to core programming concepts in Python language. Participants who successfully complete will gain the skills and knowledge to become an entry level Python</p>
+        <button>See More</button>
+      </div>
+    
+    </div>
+    <div class="browse">
+      <button>Browse More Courses&nbsp;&nbsp;<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+  </div>
+
+  <div class="dash" id="dash">
+    <div class="one">
+        <h1>29.3K</h1>
+        <h3>STUDENT ENROLL</h3>
+    </div>
+    <div class="two">
+      <h1>32.3K</h1>
+      <h3>CLASS COMPLETED</h3>
+    </div>
+    <div class="three">
+      <h1>100%</h1>
+      <h3>SATIFACTION RATE</h3>
+    </div>
+    <div class="four">
+      <h1>354 +</h1>
+      <h3>TOP INSTRUCTION</h3>
+    </div>
+  </div>
+
+
+  <div class="lectures">
+    <h1>Our Lecturer Panel</h2>
+    <div class="pic">
+      <div class="one">
+        <img src="images/lecture1.jpg" alt="">
+        <h2>Ros Taylor</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae rem incidunt sequi enim autem deleniti officiis odit voluptates quae, ab tenetur vel? Nisi, aperiam praesentium. Accusantium maiores labore cum!</p>
+      </div>
+      <div class="one">
+        <img src="images/lecture2.jpg" alt="">
+        <h2>Jemmy Andreson</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, nam? Voluptatem officiis aut, dolore non impedit illum repellendus, esse eius velit odit quae ex provident a reprehenderit atque ipsa amet!</p>
+      </div>
+      <div class="one">
+        <img src="images/lecture3.jpg" alt="">
+        <h2>Shewon Daniel</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod autem error nobis, libero vero exercitationem iusto dolor id molestiae sed corrupti, ipsam ea! Ullam optio at fuga dolores nostrum nulla!</p>
+      </div>
+    </div>
+    
+  </div>
+<!----------------Footer-------------------->
+  <footer class="footer" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col">
+         <!-- <h4>ANON</h4>
+         <p>Lorem ipsum dolor amet consecto adi pisicing elit.</p>
+         <span style="color: #bbbbbb;">ADD:</span><P>C/57/A Udadeniya,Niwunhella,Imbulana</P>
+         <span style="color: #bbbbbb;">Email:</span><P>supunmax663@gmail.com</P> -->
+         <table style="color:  #bbbbbb;">
+        <tr>
+          <h4>ONLINE EDUCATION</h4>
+        </tr>
+        <tr>
+          <td>Add:&nbsp;&nbsp;Ruwanwella,Kegalle</td>
+        </tr>
+        <tr>
+          <td>Call:&nbsp;&nbsp;+94762183219</td>
+        </tr>
+        <tr>
+          <td>Email::&nbsp;&nbsp;supunmax663@gmail.com</td>
+        </tr>
+         </table>
+          
+        </div>
+        <div class="footer-col">
+          <h4>Online Platform</h4>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Instructor</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Instructor Profile</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#">about us</a></li>
+            <li><a href="#">our services</a></li>
+            <li><a href="#">privacy policy</a></li>
+            <li><a href="#">affiliate program</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Social</h4>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+          <form style="margin-top: 30px;">
+            <input type="text" placeholder="Search.." name="search" style="padding: 10px;">
+            <button style="padding: 10px;" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+        </div>
+      </div>
+      <div class="Copyright">
+        <p>Copyright 2023 All Rights Reserved by @supunmax663</p>
+      </div>
+    </div>
+ </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
